@@ -1,4 +1,5 @@
 using System.Security.Cryptography;
+using System.Text;
 
 namespace cipher.service {
 
@@ -26,7 +27,7 @@ namespace cipher.service {
       this.IV = IV;
     }
 
-    public byte[] Encrypt(string plainText) {
+    public string Encrypt(string plainText) {
 
       // Check arguments.
       if (plainText == null || plainText.Length <= 0)
@@ -68,11 +69,13 @@ namespace cipher.service {
       }
 
       // Return the encrypted bytes from the memory stream.
-      return encrypted;
+      return UTF8Encoding.Unicode.GetString(encrypted);
 
     }
 
-    public string Decrypt(byte[] cipherText) {
+    public string Decrypt(string cipherTxt) {
+
+      var cipherText = UTF8Encoding.Unicode.GetBytes(cipherTxt);
 
       // Check arguments.
       if (cipherText == null || cipherText.Length <= 0)

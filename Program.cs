@@ -1,4 +1,5 @@
 ﻿using cipher.service;
+using System.Text;
 
 byte[] key = {
   111,
@@ -55,11 +56,11 @@ byte[] iV = {
 
 var cipherService = new CipherService(key, iV);
 
-byte[] encrypted = cipherService.Encrypt("Texto com mensagem limpa");
+var encrypted = cipherService.Encrypt("Texto com mensagem limpa");
 
 string decrypted = cipherService.Decrypt(encrypted);
 
-Console.WriteLine($"Encrypted text: {System.Text.Encoding.UTF8.GetString(encrypted)}, Key length: {cipherService.Key.Length}, IV: {cipherService.IV.Length}");
+Console.WriteLine($"Encrypted text: {encrypted}, Key length: {cipherService.Key.Length}, IV: {cipherService.IV.Length}");
 
 Console.WriteLine(decrypted);
 
