@@ -1,0 +1,15 @@
+/Users/othon/fontes/dotnet/cripto-decripto/obj/Debug/net6.0/cripto-decripto.csproj.AssemblyReference.cache
+/Users/othon/fontes/dotnet/cripto-decripto/obj/Debug/net6.0/cripto-decripto.GeneratedMSBuildEditorConfig.editorconfig
+/Users/othon/fontes/dotnet/cripto-decripto/obj/Debug/net6.0/cripto-decripto.AssemblyInfoInputs.cache
+/Users/othon/fontes/dotnet/cripto-decripto/obj/Debug/net6.0/cripto-decripto.AssemblyInfo.cs
+/Users/othon/fontes/dotnet/cripto-decripto/obj/Debug/net6.0/cripto-decripto.csproj.CoreCompileInputs.cache
+/Users/othon/fontes/dotnet/cripto-decripto/bin/Debug/net6.0/cripto-decripto
+/Users/othon/fontes/dotnet/cripto-decripto/bin/Debug/net6.0/cripto-decripto.deps.json
+/Users/othon/fontes/dotnet/cripto-decripto/bin/Debug/net6.0/cripto-decripto.runtimeconfig.json
+/Users/othon/fontes/dotnet/cripto-decripto/bin/Debug/net6.0/cripto-decripto.dll
+/Users/othon/fontes/dotnet/cripto-decripto/bin/Debug/net6.0/cripto-decripto.pdb
+/Users/othon/fontes/dotnet/cripto-decripto/obj/Debug/net6.0/cripto-decripto.dll
+/Users/othon/fontes/dotnet/cripto-decripto/obj/Debug/net6.0/refint/cripto-decripto.dll
+/Users/othon/fontes/dotnet/cripto-decripto/obj/Debug/net6.0/cripto-decripto.pdb
+/Users/othon/fontes/dotnet/cripto-decripto/obj/Debug/net6.0/cripto-decripto.genruntimeconfig.cache
+/Users/othon/fontes/dotnet/cripto-decripto/obj/Debug/net6.0/ref/cripto-decripto.dll
